@@ -9,6 +9,7 @@ class PokemonTest{
         Maus = new Pokemon("Maus", Type.POISON);
         Fischi = new Pokemon("Fischi", Type.WATER);
 
+        System.out.printf("Pokemon Schildgröde: %s\n", Schildgröde.toString());
         System.out.println(Pikachu.getName());
         System.out.println(Fischi.getNumber());
         System.out.println(Maus.toString());
