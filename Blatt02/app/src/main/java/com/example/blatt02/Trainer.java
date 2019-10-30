@@ -1,12 +1,13 @@
 package com.example.blatt02;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Trainer {
     private String firstName;
     private String lastName;
-    private ArrayList<Pokemon> pokemons;
+    private List<Pokemon> pokemons;
 
     Trainer(String firstName, String lastName){
         this.firstName = firstName;
@@ -28,11 +29,11 @@ public class Trainer {
         return this.pokemons.toString();
     }
 
-    public ArrayList<Pokemon> getPokemons() {
+    public List<Pokemon> getPokemons() {
         return this.pokemons;
     }
 
-    public ArrayList<Pokemon> getPokemonsByType(Type type){
+    public List<Pokemon> getPokemonsByType(Type type){
         ArrayList<Pokemon> tempList = new ArrayList<>();
         for (Pokemon pokemon:this.pokemons){
             if (pokemon.getType() == type){
@@ -52,7 +53,7 @@ public class Trainer {
         this.lastName = newLastName;
     }
 
-    public void setPokemons(ArrayList<Pokemon> pokemons) {
+    public void setPokemons(List<Pokemon> pokemons) {
         this.pokemons = pokemons;
     }
 
@@ -64,5 +65,17 @@ public class Trainer {
     public String toString(){
         return "First name: " + this.firstName + "\n" +
                 "Last Name: "+ this.lastName + "\n" ;
+    }
+
+    public Pokemon popPokemon(Pokemon pokemon) {
+        for (Pokemon x: pokemons) {
+            if (x == pokemon) {
+                Pokemon toReturn;
+                toReturn = x;
+                pokemons.remove(x);
+                return toReturn;
+            }
+        }
+        return null;
     }
 }
