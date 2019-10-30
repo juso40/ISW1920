@@ -41,6 +41,9 @@ public class Competition extends Swap {
             super.setDate(new Date());
             super.setId("" + System.currentTimeMillis());
 
+            pokemonA.addCompetition(this);
+            pokemonB.addCompetition(this);
+
             // Roll the winner Pokemon and store its reference.
             Pokemon winnerPokemon = rollWinner(pokemonA, pokemonB);
             Trainer winnerTrainer = winnerPokemon.getTrainer();
@@ -64,5 +67,4 @@ public class Competition extends Swap {
         }
 
     }
-
 }

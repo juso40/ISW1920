@@ -162,18 +162,55 @@ public class PokemonTest {
         System.out.println(p1);
         System.out.println(p2);
         System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
+        Pokemon battlemon1 = new Pokemon("Felix", Type.FIRE);
+        Pokemon battlemon2 = new Pokemon("Daas", Type.POISON);
+        Pokemon battlemon3 = new Pokemon("KillMe", Type.WATER);
+
+        Trainer testTrainer1 = new Trainer("MyName", "Jeff");
+        Trainer testTrainer2 = new Trainer("Thomas", "Tankengine");
+
+        testTrainer1.addPokemon(battlemon1);
+        testTrainer1.addPokemon(battlemon2);
+
+        testTrainer2.addPokemon(battlemon3);
         // Test Competition with both Pokemon having the same trainer
         System.out.println();
         System.out.println("Testen von Competition mit gleichem Trainer!");
         System.out.println("Vor Competition: ");
-        System.out.println(p1);
-        System.out.println(p2);
+        System.out.println(battlemon1);
+        System.out.println(battlemon2);
         Competition comp1 = new Competition();
-        comp1.execute(p1, p2);
+        comp1.execute(battlemon1, battlemon2);
         System.out.println("Nach Competition: ");
-        System.out.println(p1);
-        System.out.println(p2);
+        System.out.println(battlemon1);
+        System.out.println(battlemon2);
+        System.out.println();
+
+        // Test Competition with different pokemons and different trainers.
+        System.out.println();
+        System.out.println("Testen von Competition mit unterschiedlichen Trainer!");
+        System.out.println("Vor Competition: ");
+        System.out.println(battlemon1);
+        System.out.println(battlemon3);
+        Competition comp2 = new Competition();
+        comp2.execute(battlemon1, battlemon3);
+        System.out.println("Nach Competition: ");
+        System.out.println(battlemon1);
+        System.out.println(battlemon3);
+        System.out.println();
+
+        // Test von getCompetitions von einme Pokemon
+        System.out.println();
+        System.out.println("Testen von getCompetitions!");
+        System.out.println(battlemon1.getCompetitions());
+        System.out.println(battlemon1.getCompetitions().get(0).getSourcePokemon());
         System.out.println();
     }
 }
