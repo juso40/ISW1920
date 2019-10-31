@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#29434e"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:visibility="visible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewTyp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewTrainerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/textViewSwapCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewCompetitionCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

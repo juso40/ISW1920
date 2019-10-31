@@ -1,4 +1,4 @@
-package de.uhd.ifi.pokemonmanager;
+package de.uhd.ifi.pokemonmanager.data;
 
 
 import java.util.Date;
