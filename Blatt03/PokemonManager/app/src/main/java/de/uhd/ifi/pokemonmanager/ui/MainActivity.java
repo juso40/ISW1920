@@ -40,8 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Pokemon p1 = new Pokemon("Carapuce", Type.WATER);
         Pokemon p2 = new Pokemon("Raupy", Type.FIRE);
         Trainer t0 = new Trainer("Peter", "Lustig");
-        Trainer t1 = new Trainer("Alisaandra III Queen of" +
-                " extra long names to test the TextView", "Traurig");
+        Trainer t1 = new Trainer("Alisa", "Traurig");
 
         t0.addPokemon(p0);
         t0.addPokemon(p1);

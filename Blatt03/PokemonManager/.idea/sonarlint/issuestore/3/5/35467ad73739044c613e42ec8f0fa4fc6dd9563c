@@ -1,5 +1,5 @@
 
-]squid:UselessImportCheck
-"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8×ğëâ-
 Wsquid:S1854#"9Remove this useless assignment to local variable "words".(¯Á™Š8×ğëâ-
 Hsquid:S1481#"*Remove this unused "words" local variable.(¯Á™Š8×ğëâ-
+]squid:UselessImportCheck
+"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8×ğëâ-
