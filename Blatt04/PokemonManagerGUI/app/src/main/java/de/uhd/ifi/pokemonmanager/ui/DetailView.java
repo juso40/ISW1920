@@ -45,73 +45,52 @@ public class DetailView extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Delete?");
         builder.setMessage("Are you sure you want to delete this Pokemon?");
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                STORAGE.remove(pokemon);
-                STORAGE.saveAll(getBaseContext());
-                dialog.dismiss();
-                finish();
-            }
+        builder.setPositiveButton("Yes", (DialogInterface dialog, int which) -> {
+            STORAGE.remove(pokemon);
+            STORAGE.saveAll(getBaseContext());
+            dialog.dismiss();
+            finish();
         });
 
         builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
-                finish();
             }
         });
         AlertDialog alert = builder.create();
         // Dialog box created
 
         this.detailDelete = findViewById(R.id.detailDelete);
-        this.detailDelete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                alert.show();
-
-            }
-        });
+        this.detailDelete.setOnClickListener((View v) -> alert.show());
 
         this.detailEdit = findViewById(R.id.detailEdit);
         this.detailSave = findViewById(R.id.detailPokemonSave);
         this.detailCancel = findViewById(R.id.detailPokemonCancel);
-        this.detailEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.setVisibility(View.GONE);
+        this.detailEdit.setOnClickListener((View v) -> {
+            v.setVisibility(View.GONE);
 
-                detailPokeName.setInputType(InputType.TYPE_TEXT_FLAG_AUTO_CORRECT);
-                detailPokeType.setInputType(InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE);
+            detailPokeName.setInputType(InputType.TYPE_TEXT_FLAG_AUTO_CORRECT);
+            detailPokeType.setInputType(InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE);
 
-                detailCancel.setVisibility(View.VISIBLE);
-                detailSave.setVisibility(View.VISIBLE);
-                detailTypeSpinner.setVisibility(View.VISIBLE);
-                detailPokeType.setVisibility(View.GONE);
-                detailPokeTrainer.setVisibility(View.GONE);
-                detailTrainerSpinner.setVisibility(View.VISIBLE);
+            detailCancel.setVisibility(View.VISIBLE);
+            detailSave.setVisibility(View.VISIBLE);
+            detailTypeSpinner.setVisibility(View.VISIBLE);
+            detailPokeType.setVisibility(View.GONE);
+            detailPokeTrainer.setVisibility(View.GONE);
+            detailTrainerSpinner.setVisibility(View.VISIBLE);
 
-                detailCancel.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        finish();
-                    }
-                });
+            detailCancel.setOnClickListener((View) -> finish());
 
-                detailSave.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        pokemon.setName(detailPokeName.getText().toString());
-                        pokemon.setType((Type) detailTypeSpinner.getSelectedItem());
-                        pokemon.setTrainer((Trainer) detailTrainerSpinner.getSelectedItem());
-                        STORAGE.update(pokemon);
-                        STORAGE.update(pokemon.getTrainer());
-                        STORAGE.saveAll(getBaseContext());
-                        finish();
-                    }
-                });
-            }
+            detailSave.setOnClickListener((View) -> {
+                pokemon.setName(detailPokeName.getText().toString());
+                pokemon.setType((Type) detailTypeSpinner.getSelectedItem());
+                pokemon.setTrainer((Trainer) detailTrainerSpinner.getSelectedItem());
+                STORAGE.update(pokemon);
+                STORAGE.update(pokemon.getTrainer());
+                STORAGE.saveAll(getBaseContext());
+                finish();
+            });
         });
     }
 

@@ -1,7 +1,13 @@
 
-ysquid:S1450"[Remove the "detailPokeID" field and declare it as a local variable in the relevant methods.(”›€­8€…ß¯ä-
-ysquid:S1450"[Remove the "detailDelete" field and declare it as a local variable in the relevant methods.(óÕÿ·8Š‹ÿ°ä-
-|squid:S1450"YRemove the "detailEdit" field and declare it as a local variable in the relevant methods.(âú¯•ûÿÿÿÿ8¿ã²±ä-
-squid:S1450"^Remove the "detailPokeComps" field and declare it as a local variable in the relevant methods.(¢Èúíşÿÿÿÿ8‡’ä¯ä-
-dsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(™„‹C
 |squid:S1450"^Remove the "detailPokeSwaps" field and declare it as a local variable in the relevant methods.(Á¯ô¾8íâß¯ä-
+wsquid:S1450!"YRemove the "detailSave" field and declare it as a local variable in the relevant methods.(àüôŒ8á´£·ä-
+Usquid:S1611S"2Remove the parentheses around the "View" parameter(©âÁªøÿÿÿÿ8Áˆ®·ä-
+Psquid:S1611U"2Remove the parentheses around the "View" parameter(İÊ…£8ÀĞ©·ä-
+dsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(™„‹C
+usquid:S00117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©âÁªøÿÿÿÿ8î°­·ä-
+ysquid:S1450"[Remove the "detailPokeID" field and declare it as a local variable in the relevant methods.(”›€­8€…ß¯ä-
+squid:S1450"^Remove the "detailPokeComps" field and declare it as a local variable in the relevant methods.(¢Èúíşÿÿÿÿ8‡’ä¯ä-
+ysquid:S1450"[Remove the "detailDelete" field and declare it as a local variable in the relevant methods.(óÕÿ·8Š‹ÿ°ä-
+psquid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÊ…£8ÀĞ©·ä-
+~squid:S1450 "[Remove the "detailCancel" field and declare it as a local variable in the relevant methods.(İêöùÿÿÿÿ8á´£·ä-
+|squid:S1450"YRemove the "detailEdit" field and declare it as a local variable in the relevant methods.(âú¯•ûÿÿÿÿ8¿ã²±ä-

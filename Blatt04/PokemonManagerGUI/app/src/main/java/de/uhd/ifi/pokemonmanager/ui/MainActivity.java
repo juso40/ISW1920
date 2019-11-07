@@ -27,21 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView pokemonList;
     private PokemonAdapter pokemonAdapter;
-    private FloatingActionButton actionButtonCreatePokemon;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FloatingActionButton actionButtonCreatePokemon;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pokemonList = findViewById(R.id.pokemonList);
         actionButtonCreatePokemon = findViewById(R.id.createPokemon);
-        actionButtonCreatePokemon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, CreatePokemonActivity.class));
-            }
-        });
+        actionButtonCreatePokemon.setOnClickListener((View v) ->
+                startActivity(new Intent(MainActivity.this, CreatePokemonActivity.class)));
 
         setupList();
     }

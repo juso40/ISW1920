@@ -78,12 +78,9 @@ class PokemonHolder extends ViewHolder {
         pokemonSwaps = itemView.findViewById(R.id.pokemonSwaps);
         pokemonCompetitions = itemView.findViewById(R.id.pokemonCompetitions);
         itemView.setTag(this);
-        itemView.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                v.getContext().startActivity(new Intent(v.getContext(), DetailView.class).putExtra("pokemon", (Parcelable)myPokemon));
-                return false;
-            }
+        itemView.setOnLongClickListener((View v) -> {
+            v.getContext().startActivity(new Intent(v.getContext(), DetailView.class).putExtra("pokemon", (Parcelable)myPokemon));
+            return false;
         });
     }
 

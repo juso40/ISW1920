@@ -6,15 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import de.uhd.ifi.pokemonmanager.R;
 import de.uhd.ifi.pokemonmanager.data.Pokemon;
@@ -54,16 +49,11 @@ public class CreatePokemonActivity extends AppCompatActivity {
             }
         });
 
-        this.cancelButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        this.cancelButton.setOnClickListener((View v) -> { finish(); });
 
     }
 
     private void fillTypeList(){
-        this.typeSpinner.setAdapter(new ArrayAdapter<Type>(this, android.R.layout.simple_spinner_item, Type.values()));
+        this.typeSpinner.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, Type.values()));
     }
 }
