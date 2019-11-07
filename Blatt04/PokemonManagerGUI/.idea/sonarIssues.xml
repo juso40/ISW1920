@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/androidTest/java/de/moviemanager/ui/movie/ShowMovieDetailsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/androidTest/java/de/moviemanager/ui/movie/SortAndFilterMoviesTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/core/json/MovieFromJsonObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/data/Movie.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/data/MovieTransformations.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/DeepScrollTouchListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/MovieDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/MovieDetailEditActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/PerformerDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/PerformerDetailEditActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/PortrayableDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/PortrayableDetailEditActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/modifiable/FreeTextAttribute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/modifiable/ModifiableAttribute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/modifiable/TextAttribute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/detail/modifications/Modification.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/masterfragments/MovieMasterFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/WikiStorage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/fetch/WikiActorFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/fetch/WikiFetchActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/fetch/WikiFetchService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/fetch/WikiFilmFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/query/WikiQueryActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/ui/wiki/query/WikiQueryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/util/AsyncUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/moviemanager/util/ScrollViewUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/util/DateUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/wiki/MediaWiki.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/wiki/data/Film.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/java/de/wiki/loader/BaseLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/drawable/ic_arrow_left_simple.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/drawable/ic_arrow_left_simple_disabled.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/drawable/ic_arrow_left_simple_enabled.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/layout/activity_movie_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/layout/activity_movie_detail_edit.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/layout/activity_wiki_sync_fetch.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/layout/fragment_wiki_sync_actor.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/layout/fragment_wiki_sync_film.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/test/java/de/moviemanager/core/storage/RuntimeStorageTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/test/java/de/util/DateUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mmapp/app/src/test/java/de/wiki/MediaWikiTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Competition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Pokemon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Swap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Trainer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/storage/Serial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/storage/SerialStorage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/PokemonAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialog_input_names.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/listitem_swap.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/menu/detail_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

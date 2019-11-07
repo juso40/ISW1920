@@ -1,0 +1,8 @@
+
+|squid:S1450"YRemove the "saveButton" field and declare it as a local variable in the relevant methods.(ÉÿŽ¤ûÿÿÿÿ8·ªçŠä-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ð¸àŠä-
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ŠÚšŒ
+squid:UselessImportCheck"TRemove this unused import 'com.google.android.material.textfield.TextInputEditText'.(ž°Òž8ƒð–‹ä-
+~squid:S1450"[Remove the "cancelButton" field and declare it as a local variable in the relevant methods.(¨çÎüÿÿÿÿ8ÿï‘‹ä-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ðÆ‘­ä-
+gsquid:UselessImportCheck	"7Remove this unused import 'android.widget.ListAdapter'.(å‚«Ãúÿÿÿÿ8û—ÚŠä-

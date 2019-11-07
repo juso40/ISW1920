@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PokemonManager</string>
+
+    <string name="pokemon_name">Name</string>
+    <string name="pokemon_type">Type</string>
+    <string name="pokemon_id">ID</string>
+    <string name="pokemon_swap_allow">Swap allowed</string>
+    <string name="pokemon_swaps">Swaps</string>
+    <string name="pokemon_competitions">Competitions</string>
+    <string name="pokemon_trainer">Trainer</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+
+</resources>

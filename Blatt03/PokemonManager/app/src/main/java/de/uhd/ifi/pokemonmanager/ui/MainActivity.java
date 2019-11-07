@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import de.uhd.ifi.pokemonmanager.R;
@@ -31,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static List<Pokemon> createSampleData() {
-        final String sample = "The quick brown fox jumps over the lazy green duck";
-        final String[] words = sample.split(" ");
-
         ArrayList<Pokemon> pokeList = new ArrayList<>();
 
         Pokemon p0 = new Pokemon("Pikachu", Type.POISON);
