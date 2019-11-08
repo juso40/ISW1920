@@ -2,4 +2,4 @@
 esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ŠÚšŒ
 |squid:S1450"YRemove the "saveButton" field and declare it as a local variable in the relevant methods.(ÉÿŽ¤ûÿÿÿÿ8·ªçŠä-
 ~squid:S1450"[Remove the "cancelButton" field and declare it as a local variable in the relevant methods.(¨çÎüÿÿÿÿ8ÿï‘‹ä-
-Osquid:S16024",Remove useless curly braces around statement(ÜÝ£Ïøÿÿÿÿ8¾­¶ä-
+Osquid:S16025",Remove useless curly braces around statement(ÜÝ£Ïøÿÿÿÿ8¾­¶ä-

@@ -13,7 +13,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.List;
 
 import de.uhd.ifi.pokemonmanager.R;
+import de.uhd.ifi.pokemonmanager.data.Competition;
 import de.uhd.ifi.pokemonmanager.data.Pokemon;
+import de.uhd.ifi.pokemonmanager.data.Swap;
 import de.uhd.ifi.pokemonmanager.data.Trainer;
 import de.uhd.ifi.pokemonmanager.data.Type;
 import de.uhd.ifi.pokemonmanager.storage.SerialStorage;
@@ -58,22 +60,68 @@ public class MainActivity extends AppCompatActivity {
         if (STORAGE.getAllPokemon().isEmpty()) {
             STORAGE.clear(this);
 
+            Swap s1 = new Swap();
+            Swap s2 = new Swap();
+            Swap s3 = new Swap();
+            Competition c1 = new Competition();
             Trainer t1 = new Trainer("Alisa", "Traurig");
-            Trainer t2 = new Trainer("Petra", "Lustig");
+            Trainer t2 = new Trainer("Peter", "Lustig");
+            Trainer t3 = new Trainer("Ash", "Ketchum");
             Pokemon p1 = new Pokemon("Shiggy", Type.WATER);
             Pokemon p2 = new Pokemon("Rettan", Type.POISON);
             Pokemon p3 = new Pokemon("Glurak", Type.FIRE);
+            Pokemon p4 = new Pokemon("Onyx", Type.FIRE);
 
             t1.addPokemon(p1);
             t1.addPokemon(p2);
             t2.addPokemon(p3);
+            t3.addPokemon(p4);
+            STORAGE.update(p1);
+            STORAGE.update(p2);
+            STORAGE.update(p3);
+            STORAGE.update(p4);
+            STORAGE.update(t1);
+            STORAGE.update(t2);
+            STORAGE.update(t3);
+            STORAGE.saveAll(this);
 
+            s1.execute(p1, p3);
             STORAGE.update(p1);
             STORAGE.update(p2);
             STORAGE.update(p3);
             STORAGE.update(t1);
             STORAGE.update(t2);
+            STORAGE.update(s1);
             STORAGE.saveAll(this);
+
+            c1.execute(p1,p2);
+            STORAGE.update(p1);
+            STORAGE.update(p2);
+            STORAGE.update(p3);
+            STORAGE.update(t1);
+            STORAGE.update(t2);
+            STORAGE.update(c1);
+            STORAGE.saveAll(this);
+
+            s2.execute(p1, p4);
+            STORAGE.update(p1);
+            STORAGE.update(p4);
+            STORAGE.update(s2);
+            STORAGE.update(t1);
+            STORAGE.update(t2);
+            STORAGE.update(t3);
+            STORAGE.saveAll(this);
+
+            s3.execute(p1, p4);
+            STORAGE.update(p1);
+            STORAGE.update(p4);
+            STORAGE.update(s3);
+            STORAGE.update(t1);
+            STORAGE.update(t2);
+            STORAGE.update(t3);
+            STORAGE.saveAll(this);
+
+
         }
     }
 
@@ -100,4 +148,5 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         STORAGE.saveAll(this);
     }
+
 }

@@ -19,6 +19,7 @@ import java.util.Objects;
 import de.uhd.ifi.pokemonmanager.ui.DetailView;
 import de.uhd.ifi.pokemonmanager.R;
 import de.uhd.ifi.pokemonmanager.data.Pokemon;
+import de.uhd.ifi.pokemonmanager.ui.MainActivity;
 
 import static java.util.stream.Collectors.toList;
 
@@ -79,7 +80,7 @@ class PokemonHolder extends ViewHolder {
         pokemonCompetitions = itemView.findViewById(R.id.pokemonCompetitions);
         itemView.setTag(this);
         itemView.setOnLongClickListener((View v) -> {
-            v.getContext().startActivity(new Intent(v.getContext(), DetailView.class).putExtra("pokemon", (Parcelable)myPokemon));
+            v.getContext().startActivity(new Intent(v.getContext(), DetailView.class).putExtra(MainActivity.DETAIL_POKEMON, (Parcelable)myPokemon));
             return false;
         });
     }

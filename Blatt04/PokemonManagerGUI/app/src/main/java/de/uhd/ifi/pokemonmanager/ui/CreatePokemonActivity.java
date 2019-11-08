@@ -27,6 +27,7 @@ public class CreatePokemonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_pokemon);
+        setTitle("Create new Pokemon");
         this.objName = findViewById(R.id.createObjNameInput);
         this.typeSpinner = findViewById(R.id.createObjSpinner);
 

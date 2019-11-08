@@ -28,6 +28,6 @@
        android:focusable="auto"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
-       app:srcCompat="@drawable/ic_add" />
+       app:srcCompat="@drawable/ic_add_pkm" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
