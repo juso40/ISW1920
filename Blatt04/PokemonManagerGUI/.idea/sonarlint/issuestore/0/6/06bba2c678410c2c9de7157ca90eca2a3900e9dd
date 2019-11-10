@@ -1,16 +1,16 @@
 
-Jsquid:S1602s",Remove useless curly braces around statement(Å©åÿ8ÂÿØä-
-~squid:S14505"[Remove the "detailCancel" field and declare it as a local variable in the relevant methods.(İêöùÿÿÿÿ8á´£·ä-
-dsquid:MaximumInheritanceDepth""<This class has 6 parents which is greater than 5 authorized.(™„‹C
-ysquid:S14503"[Remove the "detailDelete" field and declare it as a local variable in the relevant methods.(óÕÿ·8Š‹ÿ°ä-
-|squid:S14504"YRemove the "detailEdit" field and declare it as a local variable in the relevant methods.(âú¯•ûÿÿÿÿ8¿ã²±ä-
+ysquid:S1450,"[Remove the "detailPokeID" field and declare it as a local variable in the relevant methods.(”›€­8€…ß¯ä-
+psquid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÑ€Ü8î°­·ä-
 psquid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùêî®8ÀĞ©·ä-
 }squid:S1450%"ZRemove the "swapAdapter" field and declare it as a local variable in the relevant methods.(û¾«Åıÿÿÿÿ8°ÌÆÛä-
-gsquid:UselessImportCheck"=Remove this unused import 'androidx.appcompat.app.ActionBar'.(·¯z8ÎŞÜä-
-‚squid:UselessImportCheck"RRemove this unused import 'com.google.android.material.navigation.NavigationView'.(Û²òÿÿÿÿÿ8Ÿ·ÛÜä-
-wsquid:S14506"YRemove the "detailSave" field and declare it as a local variable in the relevant methods.(àüôŒ8á´£·ä-
-psquid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÑ€Ü8î°­·ä-
-squid:S14500"^Remove the "detailPokeComps" field and declare it as a local variable in the relevant methods.(¢Èúíşÿÿÿÿ8‡’ä¯ä-
 ~squid:S1450("[Remove the "compsAdapter" field and declare it as a local variable in the relevant methods.(«Å—¡üÿÿÿÿ8Ò¥©Üä-
+ysquid:S14503"[Remove the "detailDelete" field and declare it as a local variable in the relevant methods.(óÕÿ·8Š‹ÿ°ä-
+dsquid:MaximumInheritanceDepth""<This class has 6 parents which is greater than 5 authorized.(™„‹C
+Jsquid:S1602s",Remove useless curly braces around statement(Å©åÿ8ÂÿØä-
 |squid:S1450/"^Remove the "detailPokeSwaps" field and declare it as a local variable in the relevant methods.(Á¯ô¾8íâß¯ä-
-ysquid:S1450,"[Remove the "detailPokeID" field and declare it as a local variable in the relevant methods.(”›€­8€…ß¯ä-
+~squid:S14505"[Remove the "detailCancel" field and declare it as a local variable in the relevant methods.(İêöùÿÿÿÿ8á´£·ä-
+|squid:S14504"YRemove the "detailEdit" field and declare it as a local variable in the relevant methods.(âú¯•ûÿÿÿÿ8¿ã²±ä-
+squid:S14500"^Remove the "detailPokeComps" field and declare it as a local variable in the relevant methods.(¢Èúíşÿÿÿÿ8‡’ä¯ä-
+wsquid:S14506"YRemove the "detailSave" field and declare it as a local variable in the relevant methods.(àüôŒ8á´£·ä-
+‚squid:UselessImportCheck"RRemove this unused import 'com.google.android.material.navigation.NavigationView'.(Û²òÿÿÿÿÿ8Ÿ·ÛÜä-
+gsquid:UselessImportCheck"=Remove this unused import 'androidx.appcompat.app.ActionBar'.(·¯z8ÎŞÜä-
