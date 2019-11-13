@@ -1,8 +1,0 @@
-
-]squid:UselessImportCheck"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8áá¡Ûä-
-nsquid:UselessImportCheck"CRemove this unused import 'de.uhd.ifi.pokemonmanager.data.Pokemon'.(¦­Ãİ8 Ò°Ûä-
-tsquid:UselessImportCheck"DRemove this unused import 'de.uhd.ifi.pokemonmanager.ui.DetailView'.(ë•Øûÿÿÿÿ8«Š’Ûä-
-|squid:UselessImportCheck"QRemove this unused import 'androidx.recyclerview.widget.RecyclerView.ViewHolder'.(Ê—€¯8×ô«Úä-
-]squid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G8«Š’Ûä-
-vsquid:UselessImportCheck"FRemove this unused import 'de.uhd.ifi.pokemonmanager.ui.MainActivity'.(ñ‡˜üÿÿÿÿ8«Š’Ûä-
-]squid:UselessImportCheck"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­8«Š’Ûä-
