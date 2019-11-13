@@ -56,17 +56,15 @@ public class SwapActivity extends AppCompatActivity {
     }
 
     private void populateSwapRecycler(){
-        swapAdapter = new DoSwapAdapter(this, swappablePokemons, new OnClick() {
-            @Override
-            public void onPositionClicked(int position) {
-                Swap s = new Swap();
-                s.execute(swapPokemonA, swappablePokemons.get(position));
-                STORAGE.update(swapPokemonA);
-                STORAGE.update(swappablePokemons.get(position));
-                STORAGE.update(s);
-                STORAGE.saveAll(getBaseContext());
-                finish();
-            }});
+        swapAdapter = new DoSwapAdapter(this, swappablePokemons, position -> {
+            Swap s = new Swap();
+            s.execute(swapPokemonA, swappablePokemons.get(position));
+            STORAGE.update(swapPokemonA);
+            STORAGE.update(swappablePokemons.get(position));
+            STORAGE.update(s);
+            STORAGE.saveAll(getBaseContext());
+            finish();
+        });
         RecyclerView.LayoutManager man = RecyclerViewUtil.createLayoutManager(this);
         possibleSwaps.setLayoutManager(man);
         possibleSwaps.setAdapter(swapAdapter);

@@ -1,9 +1,5 @@
 package de.uhd.ifi.pokemonmanager.ui;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +16,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
@@ -31,7 +30,6 @@ import de.uhd.ifi.pokemonmanager.data.Trainer;
 import de.uhd.ifi.pokemonmanager.data.Type;
 import de.uhd.ifi.pokemonmanager.storage.SerialStorage;
 import de.uhd.ifi.pokemonmanager.ui.adapter.CompetitionAdapter;
-import de.uhd.ifi.pokemonmanager.ui.adapter.DoSwapAdapter;
 import de.uhd.ifi.pokemonmanager.ui.adapter.SwapAdapter;
 import de.uhd.ifi.pokemonmanager.ui.util.RecyclerViewUtil;
 
@@ -39,22 +37,15 @@ public class DetailView extends AppCompatActivity {
     private static final SerialStorage STORAGE = SerialStorage.getInstance();
 
     private RecyclerView detailSwaps;
-    private SwapAdapter swapAdapter;
 
     private RecyclerView detailComps;
-    private CompetitionAdapter compsAdapter;
 
     private Pokemon pokemon;
     private TextView detailPokeName;
-    private TextView detailPokeID;
     private TextView detailPokeType;
     private TextView detailPokeTrainer;
-    private TextView detailPokeSwaps;
-    private TextView detailPokeComps;
     private TextView detailPokemonBSwapText;
     private Switch detailPokemonBSwap;
-    private Button detailDelete;
-    private Button detailEdit;
     private Button detailCancel;
     private Button detailSave;
     private Spinner detailTypeSpinner;
@@ -95,15 +86,15 @@ public class DetailView extends AppCompatActivity {
         AlertDialog alert = builder.create();
         // Dialog box created
 
-        this.detailDelete = findViewById(R.id.detailDelete);
-        this.detailDelete.setOnClickListener((View v) -> alert.show());
+        Button detailDelete = findViewById(R.id.detailDelete);
+        detailDelete.setOnClickListener((View v) -> alert.show());
 
-        this.detailEdit = findViewById(R.id.detailEdit);
+        Button detailEdit = findViewById(R.id.detailEdit);
         this.detailSave = findViewById(R.id.detailPokemonSave);
         this.detailCancel = findViewById(R.id.detailPokemonCancel);
 
         // On Edit Button clicked
-        this.detailEdit.setOnClickListener((View v) -> {
+        detailEdit.setOnClickListener((View v) -> {
             v.setVisibility(View.GONE);
 
             detailPokeName.setInputType(InputType.TYPE_TEXT_FLAG_AUTO_CORRECT);
@@ -163,17 +154,17 @@ public class DetailView extends AppCompatActivity {
     // This function populates all my Views with their respective content
     private void populateViews(){
         this.detailPokeName = findViewById(R.id.detailPokeName);
-        this.detailPokeID = findViewById(R.id.detailPokeID);
+        TextView detailPokeID = findViewById(R.id.detailPokeID);
         this.detailPokeType = findViewById(R.id.detailPokeType);
         this.detailPokeTrainer = findViewById(R.id.detailPokeTrainer);
-        this.detailPokeSwaps = findViewById(R.id.detailPokeSwaps);
-        this.detailPokeComps = findViewById(R.id.detailPokeComps);
+        TextView detailPokeSwaps = findViewById(R.id.detailPokeSwaps);
+        TextView detailPokeComps = findViewById(R.id.detailPokeComps);
         this.detailPokemonBSwapText = findViewById(R.id.detailPokemonBSwapText);
         this.detailPokemonBSwap = findViewById(R.id.detailPokemonBSwap);
 
         this.detailPokeName.setText(pokemon.getName());
         this.detailPokeName.setInputType(InputType.TYPE_NULL);
-        this.detailPokeID.setText(String.format("Pokemon ID: %s", pokemon.getId()));
+        detailPokeID.setText(String.format("Pokemon ID: %s", pokemon.getId()));
         this.detailPokeType.setInputType(InputType.TYPE_NULL);
         this.detailPokeType.setText(String.format("Type: %s", pokemon.getType().name()));
         this.detailPokeTrainer.setText(String.format("Trainer: %s %s",
@@ -183,8 +174,8 @@ public class DetailView extends AppCompatActivity {
         this.detailPokemonBSwapText.setText(String.format("Allow Swaps: %s", pokemon.isSwapAllow()));
         this.detailPokemonBSwap.setChecked(pokemon.isSwapAllow());
 
-        this.detailPokeSwaps.setText("Swaps:");
-        this.detailPokeComps.setText("Competitions:");
+        detailPokeSwaps.setText("Swaps:");
+        detailPokeComps.setText("Competitions:");
 
         this.detailTypeSpinner = findViewById(R.id.detailPokeEditType);
 
@@ -201,7 +192,7 @@ public class DetailView extends AppCompatActivity {
 
     private void populateSwapRecycler() {
         final List<Swap> swaps = this.pokemon.getSwaps();
-        swapAdapter = new SwapAdapter(this, swaps);
+        SwapAdapter swapAdapter = new SwapAdapter(this, swaps);
 
         final RecyclerView.LayoutManager manager = RecyclerViewUtil.createLayoutManager(this);
 
@@ -211,7 +202,7 @@ public class DetailView extends AppCompatActivity {
 
     private void populateCompRecycler() {
         final List<Competition> comps = this.pokemon.getCompetitions();
-        compsAdapter = new CompetitionAdapter(this, comps);
+        CompetitionAdapter compsAdapter = new CompetitionAdapter(this, comps);
 
         final RecyclerView.LayoutManager manager = RecyclerViewUtil.createLayoutManager(this);
 

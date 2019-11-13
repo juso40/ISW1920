@@ -11,24 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="410008c4-20c4-4c07-8507-c70b249e9c5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06bba2c678410c2c9de7157ca90eca2a3900e9dd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06bba2c678410c2c9de7157ca90eca2a3900e9dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35467ad73739044c613e42ec8f0fa4fc6dd9563c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35467ad73739044c613e42ec8f0fa4fc6dd9563c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d55bb8753feabac0c414671aececa2336f828e0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d55bb8753feabac0c414671aececa2336f828e0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d97c3d45429e984698d7d1cc70014ec3c9f643a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d97c3d45429e984698d7d1cc70014ec3c9f643a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6386e47c8ebcddece094164074d2db85b56a46b4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6386e47c8ebcddece094164074d2db85b56a46b4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b72155f7656ad79533aacfe502696796149bf92a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b72155f7656ad79533aacfe502696796149bf92a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/listitem_swap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/listitem_swap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SwapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SwapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +38,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="227" column="24" lean-forward="true" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
+            <state relative-caret-position="134">
+              <caret line="199" column="44" lean-forward="true" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3224#3225#0" expanded="true" />
-                <element signature="e#3272#3273#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="84" column="76" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="84" column="94" lean-forward="true" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -98,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/detail_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/listitem_competition.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Main.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/NewActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_new.xml" />
@@ -134,7 +134,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_pokemon.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/DetailView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/PokemonAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_view.xml" />
@@ -149,10 +148,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SwapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/DoSwapAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" />
+        <option value="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java" />
+        <option value="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java" />
+        <option value="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SwapActivity.java" />
+        <option value="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java" />
+        <option value="$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -166,10 +171,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pokemonmanager" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pokemonmanager" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pokemonmanager" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pokemonmanager" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="CompetitionAdapter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="PokemonManager" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pokemonmanager" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="SwapAdapter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,8 +420,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="737" extended-state="7" />
-    <editor active="true" />
+    <frame x="-2" y="0" width="1370" height="737" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49725273" visible="true" weight="0.1724924" />
@@ -380,10 +438,10 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32981783" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50303954" side_tool="true" weight="0.25207296" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49733475" weight="0.3084577" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4969605" visible="true" weight="0.25207296" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4969605" weight="0.25207296" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4989339" weight="0.32981783" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.08341323" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="bottom" id="SonarLint" order="10" visible="true" weight="0.45273632" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.22753036" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -456,25 +514,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/selection_listitem_pokemon.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_select_pokemon.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SelectPokemonDialog.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Main.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_input_names.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
@@ -571,16 +610,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/data/Competition.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,13 +850,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="227" column="24" lean-forward="true" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="224" column="22" lean-forward="true" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3224#3225#0" expanded="true" />
             <element signature="e#3272#3273#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/de/uhd/ifi/pokemonmanager/test/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/de/uhd/ifi/pokemonmanager/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/SwapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="199" column="44" lean-forward="true" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="84" column="76" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Blatt04/PokemonManagerGUI/app/src/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="84" column="94" lean-forward="true" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
         </state>
       </provider>
     </entry>

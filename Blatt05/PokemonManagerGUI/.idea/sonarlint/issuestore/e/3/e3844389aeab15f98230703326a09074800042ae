@@ -1,5 +1,2 @@
 
-~squid:S1450"[Remove the "cancelButton" field and declare it as a local variable in the relevant methods.(¨çÎüÿÿÿÿ8²¾ãªæ-
-xsquid:S1450"ZRemove the "swapAdapter" field and declare it as a local variable in the relevant methods.(¥Îƒø8üïş¨æ-
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¥ê–·ûÿÿÿÿ
 usquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¹ë§øÿÿÿÿ8Ê·åªæ-

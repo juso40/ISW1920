@@ -20,11 +20,11 @@ public class CreatePokemonActivity extends AppCompatActivity {
     private static final SerialStorage STORAGE = SerialStorage.getInstance();
     private Spinner typeSpinner;
     private TextInputLayout objName;
-    private Button saveButton;
-    private Button cancelButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Button saveButton;
+        Button cancelButton;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_pokemon);
         setTitle("Create new Pokemon");
@@ -33,10 +33,10 @@ public class CreatePokemonActivity extends AppCompatActivity {
 
         this.fillTypeList();
 
-        this.saveButton = findViewById(R.id.createObjSave);
-        this.cancelButton = findViewById(R.id.createObjCancel);
+        saveButton = findViewById(R.id.createObjSave);
+        cancelButton = findViewById(R.id.createObjCancel);
 
-        this.saveButton.setOnClickListener(new View.OnClickListener() {
+        saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String pokeName = objName.getEditText().getText().toString();
@@ -50,7 +50,7 @@ public class CreatePokemonActivity extends AppCompatActivity {
             }
         });
 
-        this.cancelButton.setOnClickListener((View v) -> { finish(); });
+        cancelButton.setOnClickListener((View v) -> finish());
 
     }
 

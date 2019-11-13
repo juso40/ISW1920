@@ -78,6 +78,7 @@ class CompetitionHolder extends RecyclerView.ViewHolder {
 
     void setSwap(Competition comp) {
         if (comp != null) {
+            if (comp.getSourcePokemon() == null || comp.getTargetPokemon() == null) { return; }
             this.compsID.setText(comp.getId());
             this.compsDate.setText(String.format("Date: %s", comp.getDate()));
             this.compsPokemonA.setText(String.format("Pokemon: %s", comp.getWinner().getName()));

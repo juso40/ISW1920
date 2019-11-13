@@ -77,6 +77,7 @@ class SwapHolder extends RecyclerView.ViewHolder {
 
     void setSwap(Swap swap) {
         if (swap != null) {
+            if (swap.getSourcePokemon() == null || swap.getTargetPokemon() == null) { return; }
             this.swapID.setText(swap.getId());
             this.swapDate.setText(String.format("Date: %s", swap.getDate()));
             this.swapPokemonA.setText(String.format("Pokemon A: %s", swap.getSourcePokemon().getName()));
