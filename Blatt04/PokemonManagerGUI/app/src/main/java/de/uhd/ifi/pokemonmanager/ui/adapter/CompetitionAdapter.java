@@ -77,15 +77,14 @@ class CompetitionHolder extends RecyclerView.ViewHolder {
     }
 
     void setSwap(Competition comp) {
-        if (comp != null) {
-            if (comp.getSourcePokemon() == null || comp.getTargetPokemon() == null) { return; }
-            this.compsID.setText(comp.getId());
+        if (comp != null && comp.getWinner() != null && comp.getLoser() != null) {
+            this.compsID.setText("-");
             this.compsDate.setText(String.format("Date: %s", comp.getDate()));
             this.compsPokemonA.setText(String.format("Pokemon: %s", comp.getWinner().getName()));
             this.compsPokemonB.setText(String.format("Pokemon: %s", comp.getLoser().getName()));
             this.compsTrainerA.setText(String.format("Winner-> Trainer: %s %s", comp.getWinner().getTrainer().getFirstName(), comp.getWinner().getTrainer().getLastName()));
             Trainer loserTrainer;
-            if (comp.getWinner().getTrainer().equals(comp.getSourceTrainer())){
+            if (comp.getWinner().getTrainer().equals(comp.getSourceTrainer())) {
                 loserTrainer = comp.getTargetTrainer();
             } else {
                 loserTrainer = comp.getSourceTrainer();
@@ -93,5 +92,4 @@ class CompetitionHolder extends RecyclerView.ViewHolder {
             this.compsTrainerB.setText(String.format("Loser-> Trainer: %s %s", loserTrainer.getFirstName(), loserTrainer.getLastName()));
         }
     }
-
 }

@@ -209,13 +209,4 @@ public class DetailView extends AppCompatActivity {
         detailComps.setLayoutManager(manager);
         detailComps.setAdapter(compsAdapter);
     }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        STORAGE.loadAll(this);
-        populateCompRecycler();
-        populateSwapRecycler();
-        populateViews();
-    }
 }
