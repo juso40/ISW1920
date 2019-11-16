@@ -459,13 +459,3 @@ A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
 ˜
 happ/build/generated/source/buildConfig/androidTest/debug/de/uhd/ifi/pokemonmanager/test/BuildConfig.java,8/a/8a9cb0e3729c9212f21ad7b7a582c8c5315f2fc7
-l
-<src/main/java/de/uhd/ifi/pokemonmanager/ui/MainActivity.java,1/c/1cff74e43ab521a111e21c52a76cd222a7197f20
-j
-:src/main/java/de/uhd/ifi/pokemonmanager/ui/DetailView.java,b/9/b9bf9d4f800a2836c52a51e1e527246dba708391
-u
-Esrc/main/java/de/uhd/ifi/pokemonmanager/ui/CreatePokemonActivity.java,b/9/b95b60ed96fa865d0f93632a32c6ce0dae22eaa1
-s
-Csrc/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/SwapAdapter.java,a/1/a13b5ff1bb69e4e4a0c035b104a2356a7c2a8648
-z
-Jsrc/main/java/de/uhd/ifi/pokemonmanager/ui/adapter/CompetitionAdapter.java,8/4/84b95c5b916ea7aee3f5342cfeac04d0f5a75590

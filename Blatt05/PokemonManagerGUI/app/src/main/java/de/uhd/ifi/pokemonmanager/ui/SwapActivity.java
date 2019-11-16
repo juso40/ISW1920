@@ -3,7 +3,9 @@ package de.uhd.ifi.pokemonmanager.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 
@@ -59,12 +61,9 @@ public class SwapActivity extends AppCompatActivity {
         swapAdapter = new DoSwapAdapter(this, swappablePokemons, new OnClick() {
             @Override
             public void onPositionClicked(int position) {
-                Swap s = new Swap();
-                s.execute(swapPokemonA, swappablePokemons.get(position));
-                STORAGE.update(swapPokemonA);
-                STORAGE.update(swappablePokemons.get(position));
-                STORAGE.update(s);
-                STORAGE.saveAll(getBaseContext());
+                Intent intent= new Intent();
+                intent.putExtra(MainActivity.DETAIL_POKEMON, (Parcelable)swappablePokemons.get(position));
+                setResult(1,intent);
                 finish();
             }});
         RecyclerView.LayoutManager man = RecyclerViewUtil.createLayoutManager(this);

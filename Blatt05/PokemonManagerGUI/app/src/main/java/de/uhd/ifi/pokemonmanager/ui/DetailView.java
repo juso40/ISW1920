@@ -151,13 +151,29 @@ public class DetailView extends AppCompatActivity {
                     Toast.makeText(this, "This Pokemon does not allow swaps!", Toast.LENGTH_SHORT)
                             .show();
                 } else {
-                    startActivity(new Intent(this, SwapActivity.class).putExtra("pokemon", (Parcelable) pokemon));
+                    startActivityForResult(new Intent(this, SwapActivity.class).putExtra("pokemon", (Parcelable) pokemon),1);
                 }
                 break;
             default:
                 break;
         }
         return true;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == 1) {
+            Pokemon swapPokemon = data.getParcelableExtra(MainActivity.DETAIL_POKEMON);
+            Swap swap = new Swap();
+            swap.execute(swapPokemon, this.pokemon);
+            STORAGE.update(swapPokemon);
+            STORAGE.update(this.pokemon);
+            STORAGE.update(swap);
+            STORAGE.saveAll(getBaseContext());
+            populateViews();
+            populateSwapRecycler();
+        }
     }
 
     // This function populates all my Views with their respective content

@@ -80,8 +80,19 @@ class CompetitionHolder extends RecyclerView.ViewHolder {
         if (comp != null) {
             this.compsID.setText(comp.getId());
             this.compsDate.setText(String.format("Date: %s", comp.getDate()));
-            this.compsPokemonA.setText(String.format("Pokemon: %s", comp.getWinner().getName()));
-            this.compsPokemonB.setText(String.format("Pokemon: %s", comp.getLoser().getName()));
+
+            if(comp.getWinner() == null){
+                this.compsPokemonA.setText(String.format("Pokemon: Has been deleted"));
+            } else {
+                this.compsPokemonA.setText(String.format("Pokemon: %s", comp.getWinner().getName()));
+            }
+            if(comp.getLoser() == null){
+                this.compsPokemonB.setText(String.format("Pokemon: Has been deleted"));
+            } else {
+                this.compsPokemonB.setText(String.format("Pokemon: %s", comp.getLoser().getName()));
+            }
+
+
             this.compsTrainerA.setText(String.format("Winner-> Trainer: %s %s", comp.getWinner().getTrainer().getFirstName(), comp.getWinner().getTrainer().getLastName()));
             Trainer loserTrainer;
             if (comp.getWinner().getTrainer().equals(comp.getSourceTrainer())){

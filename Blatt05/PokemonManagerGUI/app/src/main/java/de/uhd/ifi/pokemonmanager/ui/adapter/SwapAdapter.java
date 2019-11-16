@@ -79,8 +79,18 @@ class SwapHolder extends RecyclerView.ViewHolder {
         if (swap != null) {
             this.swapID.setText(swap.getId());
             this.swapDate.setText(String.format("Date: %s", swap.getDate()));
-            this.swapPokemonA.setText(String.format("Pokemon A: %s", swap.getSourcePokemon().getName()));
-            this.swapPokemonB.setText(String.format("Pokemon B: %s", swap.getTargetPokemon().getName()));
+            if(swap.getSourcePokemon() == null){
+                this.swapPokemonA.setText(String.format("Pokemon A: Pokemon has been deleted!"));
+            } else {
+                this.swapPokemonA.setText(String.format("Pokemon A: %s", swap.getSourcePokemon().getName()));
+            }
+            if(swap.getTargetPokemon() == null){
+                this.swapPokemonB.setText(String.format("Pokemon A: Pokemon has been deleted!"));
+            } else {
+                this.swapPokemonB.setText(String.format("Pokemon A: %s", swap.getTargetPokemon().getName()));
+            }
+
+
             this.swapTrainerA.setText(String.format("Trainer A: %s %s", swap.getSourceTrainer().getFirstName(), swap.getSourceTrainer().getLastName()));
             this.swapTrainerB.setText(String.format("Trainer B: %s %s", swap.getTargetTrainer().getFirstName(), swap.getTargetTrainer().getLastName()));
         }
