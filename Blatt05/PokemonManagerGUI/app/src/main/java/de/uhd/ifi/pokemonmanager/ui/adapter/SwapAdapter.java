@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView.Adapter;
 import java.util.List;
 import java.util.Objects;
 
-import de.uhd.ifi.pokemonmanager.data.Swap;
 import de.uhd.ifi.pokemonmanager.R;
+import de.uhd.ifi.pokemonmanager.data.Swap;
 
 import static java.util.stream.Collectors.toList;
 

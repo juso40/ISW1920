@@ -1,7 +1,3 @@
 
-~squid:S1450"[Remove the "cancelButton" field and declare it as a local variable in the relevant methods.(¨çÎüÿÿÿÿ8Íú÷§ç-
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¥ê–·ûÿÿÿÿ8Íú÷§ç-
-Ksquid:S1604="(Make this anonymous inner class a lambda(Íé•½ÿÿÿÿÿ8Íú÷§ç-
-usquid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¹ë§øÿÿÿÿ8Ê·åªæ-
-xsquid:S1450"ZRemove the "swapAdapter" field and declare it as a local variable in the relevant methods.(¥Îƒø8Íú÷§ç-
 ksquid:UselessImportCheck"@Remove this unused import 'de.uhd.ifi.pokemonmanager.data.Swap'.(¦‚8½ ¦¨ç-
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¥ê–·ûÿÿÿÿ8Íú÷§ç-

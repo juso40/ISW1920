@@ -1,81 +1,0 @@
-
-fsquid:S00101û"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â÷ı
-5squid:S2386¦"Make this member "protected".( ŞÓê
-ksquid:S00101—"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä±†¬úÿÿÿÿ
-5squid:S2386ª"Make this member "protected".(ä²‹è
-esquid:S00101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃÿâÍ
-5squid:S2386Ö"Make this member "protected".(ê½ĞÅ
-5squid:S2386Ë"Make this member "protected".(§”ñç
-ksquid:S00101 	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(üŸµäûÿÿÿÿ
-:squid:S2386¿"Make this member "protected".(ÿ¿ı«ûÿÿÿÿ
-:squid:S2386ê"Make this member "protected".(ÇÂô¬ÿÿÿÿÿ
-5squid:S2386‡"Make this member "protected".(„¯½¡
-:squid:S2386á"Make this member "protected".(ŒÚäÀûÿÿÿÿ
-fsquid:S00101˜	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€ Ø
-5squid:S2386º"Make this member "protected".(Úà°˜
-:squid:S2386¨"Make this member "protected".(Ë²Ú¼şÿÿÿÿ
-5squid:S2386²"Make this member "protected".(¶¦Ôä
-5squid:S2386É"Make this member "protected".(İõâ
-5squid:S2386Ù"Make this member "protected".(“Ã¥
-5squid:S2386"Make this member "protected".(™©…Õ
-5squid:S2386Ñ"Make this member "protected".(ãûÌÖ
-ksquid:S00101ˆ
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªì‹îúÿÿÿÿ
-5squid:S2386¨"Make this member "protected".(Ç†ÄÎ
-ksquid:S00101…	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôåÿ¬úÿÿÿÿ
-:squid:S2386Ç"Make this member "protected".(î‘àÖşÿÿÿÿ
-:squid:S2386ä"Make this member "protected".(¶š¦°øÿÿÿÿ
-:squid:S2386—"Make this member "protected".(°Û­‚ùÿÿÿÿ
-5squid:S2386œ"Make this member "protected".(’›¢ß
-ksquid:S00101š"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÙÁöŠûÿÿÿÿ
-5squid:S2386™"Make this member "protected".(î±Óè
-:squid:S2386œ"Make this member "protected".(š«É•üÿÿÿÿ
-5squid:S2386Ê"Make this member "protected".(ƒêî±
-4squid:S2386ª"Make this member "protected".(Øó¹
-5squid:S2386ø"Make this member "protected".(ÉçêÜ
-5squid:S2386¹"Make this member "protected".(”¹Ş
-jsquid:S00101."MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ğíõªúÿÿÿÿ
-:squid:S2386"Make this member "protected".(Şõ•¡ÿÿÿÿÿ
-:squid:S2386¹"Make this member "protected".(÷€¸ğøÿÿÿÿ
-:squid:S2386Ş"Make this member "protected".(ßŞ”÷şÿÿÿÿ
-:squid:S2386Ì"Make this member "protected".(ÿêÿÿÿÿÿÿ
-5squid:S2386¾"Make this member "protected".(È¿óç
-:squid:S2386§"Make this member "protected".(œ½·¸ÿÿÿÿÿ
-4squid:S2386 "Make this member "protected".(¤|
-5squid:S2386¬"Make this member "protected".(Ê—¨ÿ
-5squid:S2386’"Make this member "protected".(Ùµ„›
-5squid:S2386Ó"Make this member "protected".(â§¿ç
-5squid:S2386İ"Make this member "protected".(Çäè¹
-5squid:S2386€"Make this member "protected".(Úµß
-5squid:S2386ú"Make this member "protected".(üµüŸ
-5squid:S2386Ô"Make this member "protected".(»ÛĞ€
-5squid:S2386Ú"Make this member "protected".(áøÌ
-5squid:S2386"Make this member "protected".(÷—·
-5squid:S2386–"Make this member "protected".(»ä—†
-5squid:S2386¥"Make this member "protected".(Ê²¹
-5squid:S2386Á"Make this member "protected".(£ÿíÓ
-:squid:S2386Ï"Make this member "protected".(ÄÆÈûÿÿÿÿ
-5squid:S2386ª"Make this member "protected".(•‚£³
-5squid:S2386û"Make this member "protected".(€½çÂ
-:squid:S2386ş"Make this member "protected".(ë‰Æ‚ùÿÿÿÿ
-5squid:S2386ü"Make this member "protected".(‘°£
-5squid:S2386í"Make this member "protected".(Ù·‹
-:squid:S2386è"Make this member "protected".(¾ÛûÇùÿÿÿÿ
-5squid:S2386ï"Make this member "protected".(Ã»†¤
-5squid:S2386ı"Make this member "protected".(¬ğÑ‰
-:squid:S2386“"Make this member "protected".(€¯¼şüÿÿÿÿ
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ÂÒö
-ksquid:S00101Ú	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆ©ÖÀüÿÿÿÿ
-5squid:S2386Â"Make this member "protected".(ÙäÄà
-:squid:S2386‰"Make this member "protected".(Ç’µÑıÿÿÿÿ
-:squid:S2386¼"Make this member "protected".(Æç®ÿÿÿÿÿ
-:squid:S2386 "Make this member "protected".(Ñäãıÿÿÿÿ
-4squid:S2386Å"Make this member "protected".(ğÂÍ
-:squid:S2386ä"Make this member "protected".(ÚÇ´‘ùÿÿÿÿ
-5squid:S2386ÿ"Make this member "protected".(”ë©õ
-:squid:S2386³"Make this member "protected".(É„Íıÿÿÿÿ
-ksquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÑÓÂéøÿÿÿÿ
-ksquid:S00101õ"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Êõ”üÿÿÿÿ
-fsquid:S00101é"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÆîÀß
-5squid:S2386Í"Make this member "protected".(ÄÉæ¨
-:squid:S2386†"Make this member "protected".(·ÍÂıÿÿÿÿ

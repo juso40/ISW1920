@@ -1,114 +1,0 @@
-
-Wsquid:S1118ê,":Add a private constructor to hide the implicit public one.(ªì‹îúÿÿÿÿ
-;squid:S2386»“"Make this member "protected".(“­şúÿÿÿÿ
-ksquid:S00101·&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÙÁöŠûÿÿÿÿ
-Qsquid:S1118
-":Add a private constructor to hide the implicit public one.(œö³æ
-5squid:S2386ÁP"Make this member "protected".(óÚ»Ñ
-6squid:S2386Û’"Make this member "protected".(‰¶–
-5squid:S2386ÒO"Make this member "protected".(ÔšË¸
-:squid:S2386“w"Make this member "protected".(’Õ•¨şÿÿÿÿ
-;squid:S2386Å"Make this member "protected".(â©‡Èøÿÿÿÿ
-jsquid:S001015"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ğíõªúÿÿÿÿ
-Vsquid:S11185":Add a private constructor to hide the implicit public one.(Ğíõªúÿÿÿÿ
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(×ÂÒö
-Wsquid:S1118«%":Add a private constructor to hide the implicit public one.(ÑÓÂéøÿÿÿÿ
-Wsquid:S1118±%":Add a private constructor to hide the implicit public one.(Ä±†¬úÿÿÿÿ
-5squid:S2386Ì6"Make this member "protected".(¼µ€Û
-;squid:S2386½‰"Make this member "protected".(Öä¢ıÿÿÿÿ
-5squid:S2386¸;"Make this member "protected".(Ú¿ï½
-5squid:S2386îˆ"Make this member "protected".(Ìü¬0
-:squid:S2386Ã["Make this member "protected".(Ü°Ï­üÿÿÿÿ
-ksquid:S00101§,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷¬ì®ûÿÿÿÿ
-;squid:S2386©›"Make this member "protected".(ÚÖ¥ÿÿÿÿÿ
-5squid:S2386œt"Make this member "protected".(§Åÿ´
-5squid:S2386œo"Make this member "protected".(»ÄŒ•
-6squid:S2386¡"Make this member "protected".(ùïãÌ
-;squid:S2386Æ "Make this member "protected".(üÂèÜøÿÿÿÿ
-5squid:S2386à:"Make this member "protected".(åˆ«‘
-5squid:S2386ß4"Make this member "protected".(ãÏÅŒ
-Wsquid:S1118§,":Add a private constructor to hide the implicit public one.(÷¬ì®ûÿÿÿÿ
-ksquid:S00101ê,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªì‹îúÿÿÿÿ
-5squid:S2386ãZ"Make this member "protected".(È“óÃ
-ksquid:S00101«%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÑÓÂéøÿÿÿÿ
-5squid:S2386¤u"Make this member "protected".(ˆ†Ùù
-Wsquid:S1118·&":Add a private constructor to hide the implicit public one.(ÙÁöŠûÿÿÿÿ
-:squid:S2386ês"Make this member "protected".(‡†®©ÿÿÿÿÿ
-:squid:S2386Öe"Make this member "protected".(¿úè”şÿÿÿÿ
-4squid:S2386«:"Make this member "protected".(®í[
-5squid:S2386Šr"Make this member "protected".(Ü ¿í
-fsquid:S00101ç0"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â÷ı
-Rsquid:S1118ª,":Add a private constructor to hide the implicit public one.(’œóª
-6squid:S2386›"Make this member "protected".(Îı”°
-5squid:S2386®{"Make this member "protected".(®•–­
-5squid:S2386¯1"Make this member "protected".(Ìœõ’
-5squid:S2386ùX"Make this member "protected".(„ô’Ÿ
-:squid:S2386["Make this member "protected".(¤Ş±ûÿÿÿÿ
-Msquid:S1133®#"5Do not forget to remove this deprecated code someday.(ºÑÇÂ
-;squid:S2386Å"Make this member "protected".(ÔÕ§Œøÿÿÿÿ
-:squid:S2386ö{"Make this member "protected".(¢«¸ıÿÿÿÿ
-:squid:S2386ó9"Make this member "protected".(ÍÉùÿÿÿÿ
-;squid:S2386û‰"Make this member "protected".(ˆŞÇşúÿÿÿÿ
-ksquid:S00101İ+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(üŸµäûÿÿÿÿ
-6squid:S2386Â˜"Make this member "protected".(öø°
-:squid:S2386™9"Make this member "protected".(õÉ€ÿÿÿÿÿ
-esquid:S00101)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃÿâÍ
-:squid:S2386±5"Make this member "protected".(˜Î’ÿÿÿÿÿ
-5squid:S2386”6"Make this member "protected".(ÍöğÎ
-:squid:S2386d"Make this member "protected".(Á€•¯ıÿÿÿÿ
-fsquid:S00101—)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÆîÀß
-:squid:S2386Ğs"Make this member "protected".(­Ğ÷ûùÿÿÿÿ
-4squid:S2386ÖQ"Make this member "protected".(É•d
-6squid:S2386µ‹"Make this member "protected".(ÏØÙğ
-;squid:S2386©†"Make this member "protected".(ˆıËåùÿÿÿÿ
-:squid:S2386ËT"Make this member "protected".(³®“Şûÿÿÿÿ
-:squid:S2386øp"Make this member "protected".(‡Ü‹©úÿÿÿÿ
-:squid:S2386Ëx"Make this member "protected".(šì—œøÿÿÿÿ
-;squid:S2386¢‰"Make this member "protected".(äšàøÿÿÿÿ
-fsquid:S00101Ğ+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€ Ø
-:squid:S2386»v"Make this member "protected".(Ö¢éÏúÿÿÿÿ
-Nsquid:S1133™œ"5Do not forget to remove this deprecated code someday.(ŞÑ‡Ë
-6squid:S2386ñ‹"Make this member "protected".(ÂÕ×Â
-6squid:S2386„"Make this member "protected".(Ñ»¥
-:squid:S2386³="Make this member "protected".(‰İ¨éıÿÿÿÿ
-:squid:S2386Äp"Make this member "protected".( “ş»ÿÿÿÿÿ
-:squid:S2386 y"Make this member "protected".(×•‰Éøÿÿÿÿ
-fsquid:S00101ª,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’œóª
-Wsquid:S1118¿+":Add a private constructor to hide the implicit public one.(ôåÿ¬úÿÿÿÿ
-ksquid:S00101¿+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôåÿ¬úÿÿÿÿ
-5squid:S2386üA"Make this member "protected".(Øâ¢ä
-:squid:S2386˜R"Make this member "protected".(˜İˆúÿÿÿÿ
-:squid:S2386æ~"Make this member "protected".(šÂÿ¬şÿÿÿÿ
-:squid:S2386Şn"Make this member "protected".(ÄïìÁúÿÿÿÿ
-6squid:S2386ì"Make this member "protected".(•˜õä
-6squid:S2386‚"Make this member "protected".(øçŞÚ
-:squid:S2386Î8"Make this member "protected".(Ô±‚¡ÿÿÿÿÿ
-5squid:S2386‡]"Make this member "protected".(·ÀÉæ
-:squid:S2386Êz"Make this member "protected".(Å¡¬öúÿÿÿÿ
-Rsquid:S1118—)":Add a private constructor to hide the implicit public one.(ÆîÀß
-Wsquid:S1118®,":Add a private constructor to hide the implicit public one.(ˆ©ÖÀüÿÿÿÿ
-ksquid:S00101—("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Êõ”üÿÿÿÿ
-:squid:S2386ÊR"Make this member "protected".(˜°ëËùÿÿÿÿ
-4squid:S2386…X"Make this member "protected".(é‚°>
-Rsquid:S1118ç0":Add a private constructor to hide the implicit public one.(Â÷ı
-5squid:S2386‚~"Make this member "protected".(» ¨
-;squid:S2386¯–"Make this member "protected".(³é®Ìùÿÿÿÿ
-6squid:S2386Å‡"Make this member "protected".(ÔŒ‹ƒ
-Wsquid:S1118İ+":Add a private constructor to hide the implicit public one.(üŸµäûÿÿÿÿ
-Wsquid:S1118—(":Add a private constructor to hide the implicit public one.(»Êõ”üÿÿÿÿ
-;squid:S2386ãŸ"Make this member "protected".(ÓœØŞÿÿÿÿÿ
-5squid:S2386Š5"Make this member "protected".(»»»±
-:squid:S2386Ÿ8"Make this member "protected".(Šîæ§ıÿÿÿÿ
-;squid:S2386˜‹"Make this member "protected".(ÀâŒŠÿÿÿÿÿ
-ksquid:S00101±%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä±†¬úÿÿÿÿ
-:squid:S2386’<"Make this member "protected".(é¿üÿÿÿÿ
-ksquid:S00101®,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆ©ÖÀüÿÿÿÿ
-:squid:S2386ğx"Make this member "protected".(ñ¦³ñşÿÿÿÿ
-6squid:S2386™œ"Make this member "protected".(ŞÑ‡Ë
-Ssquid:S1133·Ÿ"5Do not forget to remove this deprecated code someday.(À€²ÿÿÿÿÿ
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ÂÒö
-:squid:S2386Ä7"Make this member "protected".(ŸäÕ¶ÿÿÿÿÿ
-Qsquid:S1118)":Add a private constructor to hide the implicit public one.(ÃÿâÍ
-6squid:S2386û"Make this member "protected".(»´€“
-6squid:S2386°ƒ"Make this member "protected".(…ÂÂä
-Rsquid:S1118Ğ+":Add a private constructor to hide the implicit public one.(€ Ø
