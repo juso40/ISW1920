@@ -57,10 +57,7 @@
     <last-search-timestamp>1563455601312</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Blatt06/mmapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt06/mmapp/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -460,7 +457,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="737" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.5007153" side_tool="true" weight="0.32995737" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.67238915" visible="true" weight="0.19148937" />
