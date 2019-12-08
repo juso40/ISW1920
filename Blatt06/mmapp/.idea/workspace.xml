@@ -57,10 +57,7 @@
     <last-search-timestamp>1563455601312</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Blatt05/PokemonManagerGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Blatt05/PokemonManagerGUI/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/data/Performer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -148,53 +145,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="de" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="de" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="moviemanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="de" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="moviemanager" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="mmapp" type="58d84e3e:PackageViewProjectNode" />
               <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -235,17 +207,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="AndroidView">
+        <subPane>
           <expand>
             <path>
-              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +226,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="device.picker.selection" value="32004f7847b9c57f" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Blatt07/mmapp" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -407,6 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="737" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.5007153" side_tool="true" weight="0.32995737" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6744868" visible="true" weight="0.16793314" />
@@ -422,9 +390,9 @@
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4978678" weight="0.3279003" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4978678" weight="0.3279003" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5144377" side_tool="true" visible="true" weight="0.35157546" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5151976" side_tool="true" visible="true" weight="0.35157546" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.68976545" weight="0.29338446" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.48556232" visible="true" weight="0.35157546" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.48480242" visible="true" weight="0.35157546" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" sideWeight="0.49733475" weight="0.3279003" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="SonarLint" order="10" sideWeight="0.49733475" weight="0.39597315" />
@@ -904,7 +872,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/data/Performer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
