@@ -17,12 +17,7 @@ import de.moviemanager.ui.masterlist.elements.HeaderElement;
 
 public class Watched<T extends Nameable> extends Categorizer<String, Movie> {
 
-    private final Function<Movie, Date> getWatchDate;
     private static final String DATE_FORMAT = "yyyy - MMMM";
-
-    public Watched(Function<Movie, Date> getWatchDate) {
-        this.getWatchDate = getWatchDate;
-    }
 
     @Override
     public String getCategoryNameFor(Movie obj) {

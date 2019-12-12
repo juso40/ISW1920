@@ -57,7 +57,9 @@
     <last-search-timestamp>1563455601312</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="" />
+    <list default="true" id="b4033b46-e380-4ed9-beba-e556444711b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Watched.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Watched.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="b64fd423" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -98,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Alphabetical.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="55" />
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -106,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Numeric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="1050">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,14 +117,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Watched.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="-168">
+              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,39 +182,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="de" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="de" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -285,17 +261,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="AndroidView">
+        <subPane>
           <expand>
             <path>
-              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="mmapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mmapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -459,7 +434,7 @@
     <frame x="-2" y="0" width="1370" height="737" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.5007153" side_tool="true" weight="0.32995737" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.67238915" visible="true" weight="0.19148937" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.67238915" visible="true" weight="0.19148937" />
       <window_info id="Structure" order="2" sideWeight="0.32761088" side_tool="true" weight="0.1684435" />
       <window_info id="Favorites" order="3" sideWeight="0.5007153" side_tool="true" weight="0.32995737" />
       <window_info id="Build Variants" order="4" sideWeight="0.5007153" side_tool="true" weight="0.32995737" />
@@ -474,8 +449,8 @@
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4978678" weight="0.3279003" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50151974" side_tool="true" weight="0.3475298" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.6882591" weight="0.43432406" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49164134" weight="0.19931857" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49733475" weight="0.3279003" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49164134" visible="true" weight="0.19931857" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" sideWeight="0.49733475" weight="0.3279003" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49848023" weight="0.34582624" />
       <window_info anchor="bottom" id="SonarLint" order="10" sideWeight="0.4968017" weight="0.39523" />
       <window_info anchor="right" id="Assistant" order="0" sideWeight="0.27311522" weight="0.23454158" />
@@ -862,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Alphabetical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterfragments/MovieMasterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -887,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Numeric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/util/Month.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -908,16 +869,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Alphabetical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Numeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/moviemanager/ui/masterlist/categorizer/Watched.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="-168">
+          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,8 @@
 
-asquid:S2259H"CA "NullPointerException" could be thrown; "date1" is nullable here.(ÑÔ¸8öÆÍ´î-
-isquid:S1192"FDefine a constant instead of duplicating this literal "Never" 4 times.(Û©¦Óúÿÿÿÿ8Óð×´î-
-Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8öÆÍ´î-
-\squid:S4973:"9Use the "equals" method if value comparison was intended.(¼™éÎÿÿÿÿÿ8àÍÈ´î-
-\squid:S4973="9Use the "equals" method if value comparison was intended.(œÏæ‡úÿÿÿÿ8öÆÍ´î-
-Ssquid:S1068"0Remove this unused "getWatchDate" private field.(¿³Ã™ùÿÿÿÿ8ÎŽè±î-
+isquid:S1192"FDefine a constant instead of duplicating this literal "Never" 4 times.(Û©¦Óúÿÿÿÿ8Óð×´î-
+asquid:S2259C"CA "NullPointerException" could be thrown; "date1" is nullable here.(ÑÔ¸8öÆÍ´î-
+\squid:S49738"9Use the "equals" method if value comparison was intended.(œÏæ‡úÿÿÿÿ8öÆÍ´î-
+\squid:S49735"9Use the "equals" method if value comparison was intended.(¼™éÎÿÿÿÿÿ8àÍÈ´î-
 >squid:S2326"T is not used in the class.(Û¬õƒùÿÿÿÿ8Œ«ê±î-
+Fsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8öÆÍ´î-
+gsquid:UselessImportCheck"=Remove this unused import 'androidx.arch.core.util.Function'.(à®§8›½Êþî-
