@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[sfdefault]{roboto}
+\begin{document}
+
+\begin{tabularx}{\linewidth}{XX}
+\toprule
+{\Large \textbf{Zustände und Transitionen}} & {\Large \textbf{Konkrete Entsprechung im Movie Manager}} \\ \midrule
+
+Z: Movie Master View & Sicht Movie Master View wird angezeigt \\
+T: select "Search" & Tap auf den "Search" button \\
+Z: Search Master View & Sicht Search Master View wird angezeigt \\
+T: select "search only in Performers" & Tap auf den "Search only in Performers" Textlink \\
+Z: Performer Search View & Sicht Performer Search View mit freiem Suchfeld wird angezeigt\\
+T: search for a performer & Einen Suchstring in das Suchfeld eingeben \\
+Z: Performer Search View & Sicht auf die Performer Search View mit Null oder mehreren Performern angezeigt\\
+T: select \textless Performer\textgreater & Tap auf einen Performer in der Liste\\
+Z: Performer Detail View & Sicht Performer Detail View wird angezeigt \\
+\bottomrule
+
+\end{tabularx}
+In diesem Beispiel wird jeder Zustandsübergang von dem "H\textsuperscript{*}" beeinflusst.\\
+Wenn immer ein Zustand existiert der Irgendwelche Daten halten kann wird er von dem "H\textsuperscript{*}" beeinflusst.\\
+Angenommen das "H\textsuperscript{*}" wäre nicht da, dann würde wenn wir in der Performer Detail View zurück
+gehen würden zu der Performer Search View in der Performer Search View die bereits gefundenen Performer von vorhin
+nicht mehr da sein.\\
+"H\textsuperscript{*}" bedeutet also, dass der Zustand sobald er wieder aufgerufen wird, seinen letzten Zustand wieder annimmt.
+\end{document}
