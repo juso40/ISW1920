@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.moviemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:9:5-83:19
+16        android:allowBackup="true"
+16-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/justin/.gradle/caches/transforms-2/files-2.1/0c0449429661a96ffdf1df75e01c080e/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:15:9-40
+24        <activity
+24-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:18:9-27:20
+25            android:name="de.moviemanager.ui.MasterActivity"
+25-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:19:13-46
+26            android:launchMode="singleTop"
+26-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:21:13-43
+27            android:screenOrientation="portrait"
+27-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:20:13-49
+28            android:windowSoftInputMode="adjustPan" >
+28-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:22:13-52
+29            <intent-filter>
+29-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:23:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:24:17-69
+30-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:24:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:25:17-77
+32-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:28:9-33:15
+36            android:name="de.moviemanager.ui.detail.MovieDetailActivity"
+36-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:29:13-58
+37            android:launchMode="singleTop"
+37-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:31:13-43
+38            android:screenOrientation="portrait"
+38-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:30:13-49
+39            android:windowSoftInputMode="stateHidden" />
+39-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:32:13-54
+40        <activity
+40-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:35:9-40:15
+41            android:name="de.moviemanager.ui.detail.MovieDetailEditActivity"
+41-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:36:13-62
+42            android:launchMode="singleTop"
+42-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:38:13-43
+43            android:screenOrientation="portrait"
+43-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:37:13-49
+44            android:windowSoftInputMode="stateHidden" />
+44-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:39:13-54
+45        <activity
+45-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:42:9-47:15
+46            android:name="de.moviemanager.ui.detail.PerformerDetailActivity"
+46-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:43:13-62
+47            android:launchMode="singleTop"
+47-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:45:13-43
+48            android:screenOrientation="portrait"
+48-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:44:13-49
+49            android:windowSoftInputMode="stateHidden" />
+49-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:46:13-54
+50        <activity
+50-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:49:9-54:15
+51            android:name="de.moviemanager.ui.detail.PerformerDetailEditActivity"
+51-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:50:13-66
+52            android:launchMode="singleTop"
+52-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:52:13-43
+53            android:screenOrientation="portrait"
+53-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:51:13-49
+54            android:windowSoftInputMode="stateHidden" />
+54-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:53:13-54
+55        <activity
+55-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:56:9-60:15
+56            android:name="de.moviemanager.ui.search.PerformerSearchActivity"
+56-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:57:13-62
+57            android:screenOrientation="portrait"
+57-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:58:13-49
+58            android:windowSoftInputMode="stateHidden" />
+58-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:59:13-54
+59        <activity
+59-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:62:9-66:15
+60            android:name="de.moviemanager.ui.search.MovieSearchActivity"
+60-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:63:13-58
+61            android:screenOrientation="portrait"
+61-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:64:13-49
+62            android:windowSoftInputMode="stateHidden" />
+62-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:65:13-54
+63        <activity
+63-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:68:9-72:15
+64            android:name="de.moviemanager.ui.wiki.query.WikiQueryActivity"
+64-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:69:13-60
+65            android:screenOrientation="portrait"
+65-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:70:13-49
+66            android:windowSoftInputMode="stateHidden" />
+66-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:71:13-54
+67        <activity
+67-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:74:9-78:15
+68            android:name="de.moviemanager.ui.wiki.fetch.WikiFetchActivity"
+68-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:75:13-60
+69            android:screenOrientation="portrait"
+69-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:76:13-49
+70            android:windowSoftInputMode="stateHidden" />
+70-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:77:13-54
+71
+72        <service android:name="de.moviemanager.ui.wiki.query.WikiQueryService" />
+72-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:80:9-66
+72-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:80:18-64
+73        <service android:name="de.moviemanager.ui.wiki.fetch.WikiFetchService" />
+73-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:82:9-66
+73-->/home/justin/Downloads/mmapp/app/src/main/AndroidManifest.xml:82:18-64
+74    </application>
+75
+76</manifest>
