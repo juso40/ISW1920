@@ -1,0 +1,22 @@
+Neue Klasse erstellt für das kategorisieren von Filmen in der MovieMasterView.
+-> java.de.moviemanager.ui.masterlist.categoizer."LendDueDate"
+--> Sortiert Filme in Kategorien(Monate DueDate) ein.
+---> "DueDate" < [Monat] < "Not rented"
+
+Kategoriesierung in "MovieMasterFragmet"-Klasse in  "orders" hinzugefügt (orders.add(xyz))
+
+
+# Entwurfsklassendiagramm
+-> Movie (Date DueDate; + getDueDate())
+-> LendDueDate ()
+-> MovieMasterFramgent
+
+		Movie
+		/    \
+	       /      \
+              V        \
+   MovieMasterFragment  \
+               \         |
+                \        V
+	         |---->LendDueDate
+
