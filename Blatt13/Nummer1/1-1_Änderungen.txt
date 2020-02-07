@@ -1,0 +1,19 @@
+Neue Klasse erstellt für das kategorisieren von Filmen in der MovieMasterView.
+-> java.de.moviemanager.ui.masterlist.categoizer."LendDueDate"
+--> Sortiert Filme in Kategorien(Monate DueDate) ein.
+---> "DueDate" < [Monat] < "Not rented"
+
+Kategoriesierung in "MovieMasterFragmet"-Klasse in  "orders" hinzugefügt (orders.add(xyz))
+
+-------------------------------------------------------------------------------------------
+
+Watchdate selection disablen wenn DueDate != null.
+-> MovieDetailEditActivity, updateWarning() /* habe zu der protected method 
+eine Abfrage hinzugefügt, die überprüft ob ein DueDate gesetzt ist. 
+Wenn kein Datum für DueDate gewählt ist, kann man ein WatchDate ändern.
+*/
+
+-> DateSelectionView, public void setEditEnable(boolean bEnabled)  /* 
+neue methode um die privates (selectDate, removeDate) sichtbar oder
+unsichtbar zu machen, je nachdem ob "bEnabled" true oder false ist.
+*/

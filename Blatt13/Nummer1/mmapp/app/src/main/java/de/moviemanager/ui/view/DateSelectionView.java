@@ -200,6 +200,17 @@ public class DateSelectionView extends FrameLayout {
     public void setErrorText(String msg) {
         showError.setText(msg);
     }
+
+    public void setEditEnable(boolean bEnabled) {
+        if (bEnabled) {
+            selectDate.setVisibility(VISIBLE);
+            removeDate.setVisibility(VISIBLE);
+        } else {
+            selectDate.setVisibility(INVISIBLE);
+            removeDate.setVisibility(INVISIBLE);
+        }
+        editEnable = bEnabled;
+    }
 }
 
 

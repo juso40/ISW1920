@@ -1,0 +1,5 @@
+"Entwerfen und Implementieren Sie für neue Operationen in der *Movie-Klasse*"
+Für dieses Blatt haben wir keine neuen Operationen in der *Movie-Klasse* hinzugefügt. 
+Dementsprechend sind auch keine JUnit-Tests gefordert. 
+-> Keine "Tabelle 13-MovieManager-ComponentTestcases.xlsx"
+--> Keine Fehler gefunden/behoben.

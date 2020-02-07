@@ -78,7 +78,7 @@ m
 r
 Bapp/src/main/java/de/moviemanager/core/storage/RuntimeStorage.java,0/1/01a7623b733c5a6c0f41a7058b862265aac97fd3
 w
-Gapp/src/main/java/de/moviemanager/ui/detail/modifiable/BaseBuilder.java,5\3\539f7ef322ff544a5eb66c947b722fbf2f21ef6b
+Gapp/src/main/java/de/moviemanager/ui/detail/modifiable/BaseBuilder.java,5/3/539f7ef322ff544a5eb66c947b722fbf2f21ef6b
 [
 +app/src/main/java/de/util/Identifiable.java,8\f\8f90474b753c33a85ebed2531bd8d59c5d13b951
 u
@@ -195,3 +195,9 @@ Z
 *app/src/main/java/de/util/StringUtils.java,a/c/acf7b5e789d357d2f3b5ebd31ea2e19ed03f5df1
 |
 Lapp/src/main/java/de/moviemanager/ui/masterlist/categorizer/LendDueDate.java,5/e/5ed8a825a7cb6b6fed2f3ff349658868622c6def
+y
+Iapp/src/main/java/de/moviemanager/ui/detail/modifiable/DateAttribute.java,1/9/19c5899ea45bd088b363f18dea4b6ae6bba6a638
+
+Oapp/src/main/java/de/moviemanager/ui/detail/modifiable/ModifiableAttribute.java,9/2/926c73c42aa52670e785383b777441d1f2e9baf2
+z
+Japp/src/androidTest/java/de/moviemanager/ui/movie/ChangeMovieDataTest.java,d/7/d730babe16ba4cdccf83a00b82304113140a72ff

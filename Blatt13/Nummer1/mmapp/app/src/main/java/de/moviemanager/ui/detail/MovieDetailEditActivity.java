@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.fragment.app.FragmentManager;
@@ -36,6 +37,7 @@ import de.moviemanager.ui.dialog.PerformerSafeRemovalDialog;
 import de.moviemanager.ui.dialog.PortrayableListDialog.ListContext;
 import de.moviemanager.ui.dialog.ReleaseDialog;
 import de.moviemanager.ui.masterlist.MarginItemDecoration;
+import de.moviemanager.ui.view.DateSelectionView;
 import de.moviemanager.ui.wiki.WikiStorage;
 import de.moviemanager.ui.wiki.fetch.WikiFetchActivity;
 import de.moviemanager.ui.wiki.query.WikiQueryMode;
@@ -371,6 +373,17 @@ public class MovieDetailEditActivity extends PortrayableDetailEditActivity<Movie
 
     @Override
     protected void updateWarning() {
+        DateSelectionView dueView = findViewById(R.id.edit_due_date);
+        DateSelectionView watchDate = findViewById(R.id.edit_watch_date);
+        if (dueView.getDate() == null) {
+            watchDate.setEditEnable(true);
+            watchDate.setErrorText(null);
+
+        } else {
+            watchDate.setEditEnable(false);
+            watchDate.setErrorText("Cannot change Watchdate while movie is lend.");
+
+        }
         boolean emptyTitle = titleAttr.getContent().trim().isEmpty();
         boolean errorEnabled = !emptyTitle;
 
